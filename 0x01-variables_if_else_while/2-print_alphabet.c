@@ -12,8 +12,9 @@ int main(void)
 	 *
 	 *	putchar(x);
 	 *	x++;
-	 }*/
-	for(x = 'a'; x <= 'z'; x++)
+	 }
+	 */
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
 	}
