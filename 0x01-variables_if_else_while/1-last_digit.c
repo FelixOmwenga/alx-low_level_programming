@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - Prints last digit of a given random number
- *
+/**
+ * main - prints last digit of a random number
  * Return: 0
 */
 int main(void)
