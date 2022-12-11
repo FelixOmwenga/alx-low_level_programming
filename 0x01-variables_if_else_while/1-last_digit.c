@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /*
- * main - prints last digit of a given random number
+ * Main: Prints last digit of a given random number
  * Return: 0
 */
-int main()
+int main(void)
 {
 	int n;
 
