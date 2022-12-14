@@ -1,10 +1,5 @@
-/**
- * #ifndef HOLBERTON_H
- * #define HOLBERTON_H
- */
-
-#ifndef PUTCHAR_H
-#define PUTCHAR_H
+#ifndef _PUTCHAR_H
+#define _PUTCHAR_H
 /*
  * File: putchar.h
  * Auth: Felix Masese
