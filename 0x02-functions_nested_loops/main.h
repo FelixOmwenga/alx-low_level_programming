@@ -1,7 +1,7 @@
-#ifndef _PUTCHAR_H
-#define _PUTCHAR_H
+#ifndef MAIN_H
+#define MAIN_H
 /*
- * File: putchar.h
+ * File: main.h
  * Auth: Felix Masese
  * Desc: Header file containing declarations for all functions
  *       used in the 0x02-functions_nested_loops directory.
