@@ -7,13 +7,13 @@
  */
 int _strlen(char *s)
 {
-  int i;
+	int i;
+	
+	for (i = 0; s[i] != 0; i++)
+    	{
+    	}
 
-  for (i = 0; s[i] != 0; i++)
-    {
-    }
-
-  return (i);
+  	return (i);
 }
 
 /**
@@ -25,14 +25,14 @@ int _strlen(char *s)
  */
 void rev_string(char *s)
 {
-  int i, len;
-  char a;
+	int i, len;
+  	char a;
 
-  len = _strlen(s) - 1;
-  for (i = len; i > len / 2; i--)
-    {
-      a = s[i];
-      s[i] = s[len - i];
-      s[len - i] = a;
-    }
+	len = _strlen(s) - 1;
+  	for (i = len; i > len / 2; i--)
+    	{
+      		a = s[i];
+      		s[i] = s[len - i];
+      		s[len - i] = a;
+    	}
 }
