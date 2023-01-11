@@ -5,8 +5,7 @@
  * _strdup - function to return a pointer to newly allocated space in memory
  * @str: string parameter
  * @dup_str: duplicate string
- * Return: NULL if str = NULL
- * Return: On success: pointer to duplicate string, NULL if insufficient memory
+ * Return: NULL if str = NULL, On success: pointer to duplicate string, NULL if insufficient memory
  */
 char *_strdup(char *str)
 {
@@ -16,8 +15,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	i = 0;
-	
+	i = 0;	
 	while (str[i] != '\0')
 		i++;
 
