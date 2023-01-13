@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
   * string_nconcat - concatenate two strings
   * @s1: string 1
-  * @s2: strign 2
+  * @s2: string 2
   * @n: size of
   * Return: pointer to new string
   */
@@ -13,6 +12,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *s;
+
 	unsigned int len = n, i;
 
 	if (s1 == NULL)
@@ -45,6 +45,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	s[len] = '\0';
 
 	return (s);
-	
-
 }
